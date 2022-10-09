@@ -13,6 +13,7 @@ const Quests = () => {
       <span className="row">Name: {quest.name}</span>
       <span className="row">Description: {quest.description}</span>
       <span className="row">Status: {quest.status}</span>
+      <a href={`/quests/${quest.id}`}>Go to quest</a>
     </section>
   ));
 };
