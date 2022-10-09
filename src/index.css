@@ -19,3 +19,15 @@ section {
 .row {
   display: block;
 }
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
