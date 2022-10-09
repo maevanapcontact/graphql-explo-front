@@ -11,3 +11,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+section {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: block;
+}
